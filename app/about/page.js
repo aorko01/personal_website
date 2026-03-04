@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaMedium, FaGoodreads, FaUnsplash } from 'react-i
 import { socialLinks } from '@/data/social';
 
 export const metadata = {
-  title: 'About | Shahir',
+  title: 'About | Zulfiker',
   description: 'Systems engineer building close to the metal — GPU kernels, distributed training, and systems software.',
 };
 
@@ -25,7 +25,7 @@ export default function AboutPage() {
 
       <div className="about-content">
         <div className="about-text">
-          <h2>Hey, I&apos;m Shahir 👋</h2>
+          <h2>Hey, I&apos;m Zulfiker 👋</h2>
           <p>
             I build things close to the metal — GPU kernels, distributed training
             infrastructure, and systems software. I care about what happens at the
@@ -42,7 +42,7 @@ export default function AboutPage() {
           <p>
             When I&apos;m not writing kernels or debugging distributed systems, you can
             find me grinding LeetCode, solving GPU puzzles on LeetGPU, or
-            competing on Codeforces. I&apos;m also into photography and music — two
+            picking up my camera. I&apos;m also into music — two
             outlets that don&apos;t require a debugger.
           </p>
 

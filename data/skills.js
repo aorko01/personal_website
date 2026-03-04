@@ -12,8 +12,8 @@ export const skillCategories = [
     name: "ML & GPU",
     skills: [
       { name: "PyTorch", level: 90, status: "proficient" },
-      { name: "PyTorch DDP", level: 85, status: "proficient" },
-      { name: "CUDA", level: 85, status: "proficient" },
+      { name: "PyTorch DDP", level: 50, status: "learning" },
+      { name: "CUDA", level: 55, status: "learning" },
       { name: "Triton", level: 85, status: "proficient" },
     ],
   },
@@ -22,8 +22,8 @@ export const skillCategories = [
     skills: [
       { name: "Docker", level: 80, status: "proficient" },
       { name: "Kubernetes", level: 75, status: "proficient" },
-      { name: "Ray", level: 75, status: "proficient" },
-      { name: "Prometheus", level: 70, status: "proficient" },
+      { name: "Ray", level: 45, status: "learning" },
+      { name: "Prometheus", level: 40, status: "learning" },
     ],
   },
   {
@@ -38,7 +38,6 @@ export const skillCategories = [
     name: "Competitive Programming",
     skills: [
       { name: "LeetCode", level: 80, status: "active" },
-      { name: "Codeforces", level: 70, status: "active" },
       { name: "LeetGPU", level: 75, status: "active" },
     ],
   },

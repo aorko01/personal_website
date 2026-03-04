@@ -10,7 +10,8 @@ const navLinks = [
   { href: '/blog', label: 'Blog' },
   { href: '/achievements', label: 'Achievements' },
   { href: '/photography', label: 'Photography' },
-  { href: '/books', label: 'Books' },
+  { href: '/library', label: 'Library' },
+  { href: '/gratitude', label: 'Gratitude' },
   { href: '/about', label: 'About' },
 ];
 
@@ -23,7 +24,7 @@ export default function Navbar() {
       <nav className="navbar">
         <div className="navbar-inner">
           <Link href="/" className="navbar-logo">
-            shahir<span className="cursor"></span>
+            zulfiker<span className="cursor"></span>
           </Link>
 
           <div className="navbar-links">

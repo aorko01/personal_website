@@ -2,7 +2,7 @@ import { getAllPosts } from '@/lib/blog';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Blog | Shahir',
+  title: 'Blog | Zulfiker',
   description: 'Thoughts on GPU programming, distributed systems, ML infrastructure, and systems engineering.',
 };
 

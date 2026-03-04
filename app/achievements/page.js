@@ -1,7 +1,7 @@
 import { achievements } from '@/data/achievements';
 
 export const metadata = {
-  title: 'Achievements | Shahir',
+  title: 'Achievements | Zulfiker',
   description: 'Milestones, accomplishments, and things I\'m proud of.',
 };
 

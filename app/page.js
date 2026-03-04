@@ -3,11 +3,13 @@ import ProjectCard from '@/components/ProjectCard';
 import SkillBar from '@/components/SkillBar';
 import { projects } from '@/data/projects';
 import { skillCategories } from '@/data/skills';
+import { gratitudeEntries } from '@/data/gratitude';
 import { getAllPosts } from '@/lib/blog';
 import Link from 'next/link';
 
 export default function Home() {
   const posts = getAllPosts().slice(0, 3);
+  const recentGratitude = gratitudeEntries.slice(0, 3);
 
   return (
     <>
@@ -31,7 +33,7 @@ export default function Home() {
       <section className="section">
         <div className="section-header">
           <h2>Skills &amp; Tools</h2>
-          <p>Technologies I work with daily</p>
+          <p>Technologies I work with</p>
           <div className="accent-line"></div>
         </div>
         <div className="skills-grid">
@@ -87,9 +89,36 @@ export default function Home() {
               </Link>
             ))}
           </div>
-          <div style={{ textAlign: 'center', marginTop: '32px' }}>
+          <div style={{ textAlign: 'center', marginTop: '28px' }}>
             <Link href="/blog" className="btn-secondary">
               View All Posts →
+            </Link>
+          </div>
+        </section>
+      )}
+
+      {/* Recent Gratitude */}
+      {recentGratitude.length > 0 && (
+        <section className="section">
+          <div className="section-header">
+            <h2>One Good Thing</h2>
+            <p>Small moments worth remembering</p>
+            <div className="accent-line"></div>
+          </div>
+          <div className="gratitude-grid">
+            {recentGratitude.map((entry, idx) => (
+              <div key={idx} className="gratitude-card">
+                <div className="gratitude-date">
+                  <span className="dot"></span>
+                  {entry.date}
+                </div>
+                <p>{entry.text}</p>
+              </div>
+            ))}
+          </div>
+          <div style={{ textAlign: 'center', marginTop: '28px' }}>
+            <Link href="/gratitude" className="btn-secondary">
+              View All →
             </Link>
           </div>
         </section>

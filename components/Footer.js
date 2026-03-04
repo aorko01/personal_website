@@ -14,8 +14,8 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-inner">
         <div className="footer-left">
-          <p className="footer-name">shahir_</p>
-          <p>Systems engineer. Building close to the metal.</p>
+          <p className="footer-name">zulfiker_</p>
+          <p>ML Systems & Infrastructure engineer</p>
         </div>
         <div className="footer-socials">
           {socialLinks.map((link) => {

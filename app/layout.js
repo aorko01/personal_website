@@ -16,12 +16,12 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: 'Shahir | Systems & ML Engineer',
+  title: 'Zulfiker | Systems & ML Engineer',
   description:
     'GPU kernels, distributed training infrastructure, and systems software. Building close to the metal.',
   keywords: ['systems engineer', 'GPU', 'CUDA', 'ML infrastructure', 'Triton', 'distributed systems'],
   openGraph: {
-    title: 'Shahir | Systems & ML Engineer',
+    title: 'Zulfiker | Systems & ML Engineer',
     description: 'Building close to the metal — GPU kernels, distributed training, and systems software.',
     type: 'website',
   },
